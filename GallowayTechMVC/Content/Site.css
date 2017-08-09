@@ -1,0 +1,526 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+	background-color: #656565;
+	background-image: url(~/Images/background.gif);
+	background-repeat: repeat;
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*text-align: center;*/
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	/*font-size: 0.7em;*/
+	color: #FFFFFF;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 100px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Default.css - black */
+
+/* 0 BASIC TAGS */
+
+/*table {
+	font-size: 1em;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #505050;
+	height: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #DBB94F;
+}
+
+	a:visited {
+		color: #C19B28;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		color: #E6CD84;
+	}
+
+	a:active {
+		color: #C19B28;
+	}
+
+img {
+	border-width: 0;
+}*/
+
+/* 1 HEADER */
+
+/*.header {
+	background-image: url(~/Images/header.gif);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 789px;
+	height: 76px;
+	margin: 0 auto 5px auto;
+}
+
+
+h1 {
+	position: absolute;
+	left: 37px;
+	top: 12px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+h2 {
+	position: absolute;
+	left: 37px;
+	top: 45px;
+	font-size: 11px;
+}
+
+.menua {
+	position: absolute;
+	right: 37px;
+	top: 13px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.nav {
+	position: absolute;
+	right: 37px;
+	top: 51px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+	.menua a:visited, .nav a:visited {
+		color: #DBB94F;
+	}*/
+
+/* 1.1 SHIM */
+
+/*.shim {
+	display: none;
+}*/
+
+
+/* 2 PAGE */
+
+/*.page {
+	background-repeat: repeat-y;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}*/
+
+/*h3 {
+	margin-top: 1.0em;
+	margin-bottom: 1.12em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h4 {
+	margin-top: 1.0em;
+	margin-bottom: 1.12em;
+	font-size: 1.3em;
+	font-weight: bold;
+}*/
+
+/* 2.1 ALL PAGES */
+
+
+#home, #resume, #links, #albums, #photos, #details, #register, #admin-albums, #admin-photos, #admin-details {
+	position: relative;
+	width: 850px;
+	padding: 0px 37px;
+	padding-top: 1px; /* Weird Mozilla Bug */
+	padding-bottom: 40px; /* Weird Mozilla Bug */
+}
+
+#sidebar {
+	float: left;
+	width: 214px;
+	height: 100%;
+}
+
+#content {
+	margin-left: 256px;
+}
+
+#contentfull {
+}
+
+#whatsnew {
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+
+#coollinks {
+	margin-left: 220px;
+}
+
+#resume h4, #links h4 {
+	margin-top: 0;
+	border-top: 1px solid #505050;
+	padding-top: 1.0em;
+	position: absolute;
+	left: 37px;
+	width: 214px;
+}
+
+#resume #photo {
+	position: absolute;
+	left: 37px;
+	top: 20px;
+	width: 214px;
+}
+
+#resume .first {
+	margin-top: 0;
+	border-top: 1px solid #505050;
+	padding-top: 1.5em;
+}
+
+dl {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top: 1px solid #505050;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	position: relative;
+}
+
+dt {
+	position: absolute;
+	left: 0;
+}
+
+dd {
+	margin-left: 150px;
+	height: 2.0em;
+}
+
+.emptydata td {
+	padding: 50px;
+	color: #aeaeae;
+}
+
+.view {
+	margin-left: auto;
+	margin-right: auto;
+	width: 686px;
+	text-align: center;
+}
+
+	.view .photo-frame {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.item {
+	padding: 20px 50px;
+	color: #B2B2B2;
+}
+
+	.item h4 {
+		margin-bottom: 0.4em;
+	}
+
+.nullpanel {
+	padding: 150px;
+	width: auto;
+	text-align: center;
+}
+
+.buttonbar, .buttonbar-top {
+	width: 686px;
+	height: 36px;
+	background-image: url(~/Images/photonav.gif);
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+
+/* 3 FOOTER */
+
+/*.footerbg {
+	width: auto;
+	height: 50px;
+	text-align: center;
+}
+
+.footer {
+	background-image: url(~/Images/footer.gif);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	width: 770px;
+	height: 50px;
+	text-align: center;
+	font-size: 10px;
+	color: #ffffff;
+}
+
+.menub {
+	margin: 8px auto 2px auto;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+	.menub a:visited {
+		color: #DBB94F;
+	}*/
+
+
+/* Inline styles are used because image controls hard code a border property */
+
+.photo_198 {
+	border: 4px solid #FFFFFF;
+}
+
+
+
+
+
+/* Frame.csc - black */
+
+/* Photo Border for All Pages Except the Albums Page */
+
+.photo-frame .topx-- {
+	background-image: url(~/Images/frame-topx--.gif);
+	background-repeat: no-repeat;
+	width: auto;
+	height: 4px;
+	vertical-align: top;
+}
+
+.photo-frame .top-x- {
+	background-image: url(~/Images/frame-top-x-.gif);
+	background-repeat: repeat-x;
+	width: auto;
+	height: 4px;
+}
+
+.photo-frame .top--x {
+	background-image: url(~/Images/frame-top--x.gif);
+	background-repeat: no-repeat;
+	width: auto;
+	height: 4px;
+	vertical-align: top;
+}
+
+.photo-frame .midx-- {
+	background-image: url(~/Images/frame-midx--.gif);
+	background-repeat: repeat-y;
+	width: 4px;
+	height: 100%;
+}
+
+.photo-frame .mid--x {
+	background-image: url(~/Images/frame-mid--x.gif);
+	background-repeat: repeat-y;
+	width: 4px;
+	height: 100%;
+}
+
+.photo-frame .botx-- {
+	background-image: url(~/Images/frame-botx--.gif);
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 4px;
+	vertical-align: top;
+}
+
+.photo-frame .bot-x- {
+	background-image: url(~/Images/frame-bot-x-.gif);
+	background-repeat: repeat-x;
+	width: auto;
+	height: 4px;
+}
+
+.photo-frame .bot--x {
+	background-image: url(~/Images/frame-bot--x.gif);
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 4px;
+	vertical-align: bottom;
+}
+
+/* Photo Border for the Album Page */
+
+.album-frame .topx----,
+.album-frame .top----x,
+.album-frame .botx----,
+.album-frame .bot----x {
+	height: 14px;
+	width: 14px;
+}
+
+.album-frame .top-x--- {
+	background-image: url(~/Images/album-tstretch.gif);
+	background-repeat: repeat-x;
+	text-align: left;
+	height: 14px;
+	width: auto;
+}
+
+.album-frame .top--x-- {
+	background-image: url(~/Images/album-tstretch.gif);
+	background-repeat: repeat-x;
+	height: 14px;
+	width: auto;
+}
+
+.album-frame .top---x- {
+	background-image: url(~/Images/album-tstretch.gif);
+	background-repeat: repeat-x;
+	text-align: right;
+	height: 14px;
+	width: auto;
+}
+
+.album-frame .mtpx---- {
+	background-image: url(~/Images/album-lstretch.gif);
+	background-repeat: repeat-y;
+	vertical-align: top;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .mtp----x {
+	background-image: url(~/Images/album-rstretch.gif);
+	background-repeat: repeat-y;
+	vertical-align: top;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .midx---- {
+	background-image: url(~/Images/album-lstretch.gif);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .mid----x {
+	background-image: url(~/Images/album-rstretch.gif);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .mbtx---- {
+	background-image: url(~/Images/album-lstretch.gif);
+	background-repeat: repeat-y;
+	vertical-align: bottom;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .mbt----x {
+	background-image: url(~/Images/album-rstretch.gif);
+	background-repeat: repeat-y;
+	vertical-align: bottom;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .bot-x--- {
+	background-image: url(~/Images/album-bstretch.gif);
+	background-repeat: repeat-x;
+	text-align: right;
+	height: 14px;
+	width: auto;
+}
+
+.album-frame .bot--x-- {
+	background-image: url(~/Images/album-bstretch.gif);
+	background-repeat: repeat-x;
+	height: 14px;
+	width: auto;
+}
+
+.album-frame .bot---x- {
+	background-image: url(~/Images/album-bstretch.gif);
+	background-repeat: repeat-x;
+	text-align: left;
+	height: 14px;
+	width: auto;
+}
+
+/* Form Items */
+
+/*.textfield {
+	border: 1px solid #000000;
+	vertical-align: middle;
+	padding: 3px;
+	margin: 2px 0 5px 0;
+}*/
+
+/* Login View */
+
+/*.login .label {
+	display: block;
+}
+
+.login .textbox {
+	border: 1px solid #000000;
+	width: 140px;
+	vertical-align: middle;
+	padding: 3px;
+	margin: 2px 0 5px 0;
+}
+
+.login .button {
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}*/
+
+
+/* LIST */
+
+/*ul {
+	list-style-type: none;
+	list-style-image: url(~/Images/bullet-2.gif);
+	list-style-position: outside;
+	line-height: 2.1em;
+	vertical-align: middle;
+	margin-left: 1.25em;
+}
+
+.list_link {
+	list-style-image: url(~/Images/bullet-1.gif);
+}*/

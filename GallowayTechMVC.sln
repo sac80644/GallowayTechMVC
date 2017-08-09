@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GallowayTechMVC", "GallowayTechMVC\GallowayTechMVC.csproj", "{CCDA66E5-7B12-4686-B08F-0B9C8048BF9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GallowayTechMVC.Tests", "GallowayTechMVC.Tests\GallowayTechMVC.Tests.csproj", "{214821C3-8106-486A-B5F0-CC3AE8B4DAEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDA66E5-7B12-4686-B08F-0B9C8048BF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDA66E5-7B12-4686-B08F-0B9C8048BF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDA66E5-7B12-4686-B08F-0B9C8048BF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDA66E5-7B12-4686-B08F-0B9C8048BF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214821C3-8106-486A-B5F0-CC3AE8B4DAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214821C3-8106-486A-B5F0-CC3AE8B4DAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214821C3-8106-486A-B5F0-CC3AE8B4DAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214821C3-8106-486A-B5F0-CC3AE8B4DAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
