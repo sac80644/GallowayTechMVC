@@ -202,6 +202,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="asp_netCheck.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Default.css" />
@@ -282,6 +283,7 @@
     <Content Include="Downloads\Resume\_vti_cnf\Jason_Galloways_ECM_Resume.doc" />
     <Content Include="Downloads\Software\Utilities\FileRenamer.zip" />
     <Content Include="Downloads\Software\Utilities\FileSystemOperations.zip" />
+    <Content Include="welcome.html" />
     <None Include="Properties\PublishProfiles\FTP-gallowaytech.com.pubxml" />
     <None Include="Properties\PublishProfiles\FS-localhost.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
